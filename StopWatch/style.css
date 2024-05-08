@@ -1,0 +1,63 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2015/03/06/11/40/sun-rise-661548_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.time {
+    font-size: 48px;
+    color: #0d0d0d;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+#start {
+    background-color: #28a745;
+}
+
+#start:hover {
+    background-color: #216583;
+
+}
+
+#stop {
+    background-color: #dc3545;
+}
+
+#stop:hover {
+    background-color: #c82838;
+}
+
+#reset {
+    background-color: #ffc107;
+}
+
+#reset:hover {
+    background-color: #e8a800;
+}
